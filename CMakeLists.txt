@@ -3,7 +3,7 @@ project(assignment VERSION 0.1.0)
 add_compile_options(-std=c++11)
 add_compile_definitions(_GNU_SOURCE)
 aux_source_directory(./src SRCS)
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+# set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
 find_package(Eigen3 REQUIRED)
 
